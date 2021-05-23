@@ -1,0 +1,12 @@
+{
+  "data": {
+    "queryParams": {
+      "district_id": "363",
+      "date": "23-05-2021",
+      "min_age_limit": "18",
+      "dose": "1"
+    },
+    "sessionName": "Launch Configuration 1"
+  },
+  "flowUri": "res://flow:Appointment_Availability_by_District_by_Age_Dose_Vaccine"
+}

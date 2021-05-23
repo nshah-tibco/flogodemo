@@ -1,0 +1,96 @@
+{
+  "data": {
+    "input1": {
+      "centers": [
+        {
+          "address": "Hadapsar Pune",
+          "block_name": "Haveli",
+          "fee_type": "Paid",
+          "name": "Sahyadri Hospital Hadapsar",
+          "pincode": 411028,
+          "sessions": [
+            {
+              "available_capacity": 46,
+              "available_capacity_dose1": 0,
+              "available_capacity_dose2": 46,
+              "date": "24-05-2021",
+              "min_age_limit": 18,
+              "vaccine": "COVISHIELD"
+            },
+            {
+              "available_capacity": 19,
+              "available_capacity_dose1": 0,
+              "available_capacity_dose2": 19,
+              "date": "25-05-2021",
+              "min_age_limit": 18,
+              "vaccine": "COVISHIELD"
+            },
+            {
+              "available_capacity": 10,
+              "available_capacity_dose1": 0,
+              "available_capacity_dose2": 10,
+              "date": "26-05-2021",
+              "min_age_limit": 18,
+              "vaccine": "COVISHIELD"
+            },
+            {
+              "available_capacity": 10,
+              "available_capacity_dose1": 0,
+              "available_capacity_dose2": 10,
+              "date": "27-05-2021",
+              "min_age_limit": 18,
+              "vaccine": "COVISHIELD"
+            },
+            {
+              "available_capacity": 10,
+              "available_capacity_dose1": 0,
+              "available_capacity_dose2": 10,
+              "date": "28-05-2021",
+              "min_age_limit": 18,
+              "vaccine": "COVISHIELD"
+            }
+          ]
+        },
+        {
+          "address": "Lonavala Nagar Parishad Hospital Near Nilkamal Theater",
+          "block_name": "Maval",
+          "fee_type": "Free",
+          "name": "Lonavala UPHC",
+          "pincode": 410401,
+          "sessions": [
+            {
+              "available_capacity": 10,
+              "available_capacity_dose1": 0,
+              "available_capacity_dose2": 10,
+              "date": "24-05-2021",
+              "min_age_limit": 18,
+              "vaccine": "COVISHIELD"
+            }
+          ]
+        },
+        {
+          "address": "936 1 And 936 2 Gat Number AT POST LAVALESYMBIOSIS INTERNATIONAL UNIVERSITY (SIU ) CAMPUS 412115 936 1 And 936 2 Gat Number AT POST LAVALESYMBIOSIS INTERNATIONAL UNIVERSITY (SIU ) CAMPUS 412115",
+          "block_name": "Mulshi",
+          "fee_type": "Paid",
+          "name": "Symbiosis University Hospital",
+          "pincode": 412115,
+          "sessions": [
+            {
+              "available_capacity": 148,
+              "available_capacity_dose1": 0,
+              "available_capacity_dose2": 148,
+              "date": "24-05-2021",
+              "min_age_limit": 18,
+              "vaccine": "COVISHIELD"
+            }
+          ]
+        }
+      ]
+    },
+    "minAgeLimit": "18",
+    "dateDDMMYYYY": "23-05-2021",
+    "dose": "2",
+    "sessionName": "Launch Configuration 1"
+  },
+  "flowUri": "res://flow:SubFlowToSendEmailAndSMS"
+}

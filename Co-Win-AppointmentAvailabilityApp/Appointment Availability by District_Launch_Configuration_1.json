@@ -1,0 +1,10 @@
+{
+  "data": {
+    "queryParams": {
+      "district_id": "363",
+      "date": "23-05-2021"
+    },
+    "sessionName": "Launch Configuration 1"
+  },
+  "flowUri": "res://flow:Appointment_Availability_by_District"
+}
