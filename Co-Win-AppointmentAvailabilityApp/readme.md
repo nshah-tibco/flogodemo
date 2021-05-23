@@ -45,14 +45,14 @@ This demo sample sends emails and SMS alerts about the Co-Win Vaccine Appointmen
 The steps are similar to the ones mentioned in "Testing the app" section.
 You will need to export the variables as below based on your needs -
 
-export district_id=363
-export min_age=18
-export dose=18
-export email=[email on which alert emails need to be sent]
-export username=[username for SendEmail activity]
-export password=[password for SendEmail activity]
-export FromNumber=[Twilio From Number]
-export ToNumber=[The number on which SMS alerts need to be sent]
+export district_id=363__
+export min_age=18__
+export dose=18__
+export email=[email on which alert emails need to be sent]__
+export username=[username for SendEmail activity]__
+export password=[password for SendEmail activity]__
+export FromNumber=[Twilio From Number]__
+export ToNumber=[The number on which SMS alerts need to be sent]__
 
 Run the app using below command from the terminal -
 
