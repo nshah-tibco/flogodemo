@@ -7,7 +7,7 @@ This demo sample sends emails and SMS alerts about the Co-Win Vaccine Appointmen
 
 1. TIBCO Flogo® Enterprise - Since Co-Win public API's are allowed only to be accessed from IP address range only from India, so you will need TIBCO Flogo® Enterprise to generate the binary/docker image for this application and deploy it locally or on any PaaS platform like AWS, Azure, GCP in India region.
 2. SendMail Activity needs to be configured with Server, Port, Username, Password for sending email to the user about the available slots.
-3. TIBCO Flogo® Connector for Twilio - This app sends SMS to the user about the available PIN codes for vaccine appointment.
+3. TIBCO Flogo® Connector for Twilio - This app sends SMS to the user about the available PIN codes for vaccine appointment. So you will need to install this FLOGO Connector.
 
 ## Notes:
 
@@ -48,15 +48,15 @@ You will need to export the variables as below based on your needs -
 export district_id=363
 export min_age=18
 export dose=18
-export email=<email on which alert emails need to be sent>
-export username=<username for SendEmail activity>
-export password=<password for SendEmail activity>
-export FromNumber=<Twilio From Number>
-export ToNumber=<The number on which SMS alerts need to be sent>
+export email=[email on which alert emails need to be sent]
+export username=[username for SendEmail activity]
+export password=[password for SendEmail activity]
+export FromNumber=[Twilio From Number]
+export ToNumber=[The number on which SMS alerts need to be sent]
 
 Run the app using below command from the terminal -
 
-FLOGO_APP_PROPS_ENV=auto ./<app binary name>
+FLOGO_APP_PROPS_ENV=auto ./[app binary name]
 
 If you are running the app locally then few examples for the endpoints to be hit from postman or any other REST client :
 
@@ -70,6 +70,3 @@ If you are running the app locally then few examples for the endpoints to be hit
 ## Help
 
 Please visit our [TIBCO Cloud<sup>&trade;</sup> Integration documentation](https://integration.cloud.tibco.com/docs/) and TIBCO Flogo® Enterprise documentation on [docs.tibco.com](https://docs.tibco.com/) for additional information.
-
-## License
-This TCI Flogo SDK and Samples project is licensed under a BSD-type license. See [license.txt](license.txt).
