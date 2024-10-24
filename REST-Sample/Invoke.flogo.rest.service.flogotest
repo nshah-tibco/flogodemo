@@ -1,0 +1,17 @@
+{
+  "suites": {},
+  "tests": {
+    "post_Invokebookdetails:test": {
+      "name": "test",
+      "flowId": "flow:post_Invokebookdetails",
+      "flowName": "post_Invokebookdetails",
+      "disabled": false
+    }
+  },
+  "type": "flogo:unittest",
+  "model": "1.1.1",
+  "app": {
+    "name": "Invoke.flogo.rest.service",
+    "version": "1.0.0"
+  }
+}
