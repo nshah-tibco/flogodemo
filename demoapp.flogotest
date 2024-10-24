@@ -1,0 +1,17 @@
+{
+  "suites": {},
+  "tests": {
+    "New_flow:test": {
+      "name": "test",
+      "flowId": "flow:New_flow",
+      "flowName": "New_flow",
+      "disabled": false
+    }
+  },
+  "type": "flogo:unittest",
+  "model": "1.1.1",
+  "app": {
+    "name": "demoapp",
+    "version": "1.0.0"
+  }
+}
