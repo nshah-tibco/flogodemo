@@ -1,0 +1,72 @@
+{
+    "report": {
+        "suites": [
+            {
+                "suiteName": "Selected Test Cases",
+                "testCases": [
+                    {
+                        "testName": "test",
+                        "flowName": "New_flow",
+                        "activities": [
+                            {
+                                "name": "StartActivity"
+                            },
+                            {
+                                "name": "LogMessage",
+                                "input": {
+                                    "Log Level": "INFO",
+                                    "flowInfo": false,
+                                    "logLevel": "",
+                                    "message": "Hello"
+                                }
+                            },
+                            {
+                                "name": "LogMessage1",
+                                "input": {
+                                    "Log Level": "INFO",
+                                    "flowInfo": false,
+                                    "logLevel": "",
+                                    "message": "Hello1"
+                                }
+                            }
+                        ],
+                        "links": [
+                            {
+                                "linkName": "StartActivity to LogMessage",
+                                "from": "StartActivity",
+                                "to": "LogMessage"
+                            },
+                            {
+                                "linkName": "LogMessage to LogMessage1",
+                                "from": "LogMessage",
+                                "to": "LogMessage1"
+                            }
+                        ],
+                        "errorHandler": {
+                            "activities": []
+                        },
+                        "testResult": {
+                            "totalAssertions": 0,
+                            "executedAssertions": 0,
+                            "failedAssertions": 0,
+                            "skippedAssertions": 0,
+                            "successAssertions": 0,
+                            "flowExecuted": true
+                        },
+                        "testStatus": ""
+                    }
+                ],
+                "suiteResult": {
+                    "totalTests": 1,
+                    "failedTests": 0,
+                    "errorFailed": 0,
+                    "assertionFailed": 0
+                }
+            }
+        ]
+    },
+    "result": {
+        "totalSuites": 1,
+        "failedSuites": 0
+    }
+}

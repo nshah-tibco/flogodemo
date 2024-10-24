@@ -1,0 +1,64 @@
+{
+    "report": {
+        "suites": [
+            {
+                "suiteName": "Selected Test Cases",
+                "testCases": [
+                    {
+                        "testName": "test1",
+                        "flowName": "postBookDetails",
+                        "activities": [
+                            {
+                                "name": "LogMessage",
+                                "input": {
+                                    "Log Level": "INFO",
+                                    "flowInfo": false,
+                                    "message": "Main flow..."
+                                }
+                            },
+                            {
+                                "name": "Mapper1",
+                                "error": {
+                                    "activity": "Mapper1",
+                                    "code": "",
+                                    "data": null,
+                                    "message": "index out of range: len: 0, idx: 0",
+                                    "type": "mapper"
+                                }
+                            }
+                        ],
+                        "links": [
+                            {
+                                "linkName": "LogMessagetoMapper1",
+                                "from": "LogMessage",
+                                "to": "Mapper1"
+                            }
+                        ],
+                        "errorHandler": {
+                            "activities": []
+                        },
+                        "testResult": {
+                            "totalAssertions": 0,
+                            "executedAssertions": 0,
+                            "failedAssertions": 0,
+                            "skippedAssertions": 0,
+                            "successAssertions": 0,
+                            "flowExecuted": false
+                        },
+                        "testStatus": "Testcase failed to execute with error: index out of range: len: 0, idx: 0"
+                    }
+                ],
+                "suiteResult": {
+                    "totalTests": 1,
+                    "failedTests": 1,
+                    "errorFailed": 1,
+                    "assertionFailed": 0
+                }
+            }
+        ]
+    },
+    "result": {
+        "totalSuites": 1,
+        "failedSuites": 1
+    }
+}

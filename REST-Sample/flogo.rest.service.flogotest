@@ -71,6 +71,43 @@
           ]
         }
       }
+    },
+    "postBookDetails:test1": {
+      "name": "test1",
+      "flowId": "flow:postBookDetails",
+      "flowName": "postBookDetails",
+      "flowInputs": {
+        "queryParams": {
+          "available": true,
+          "price": 10,
+          "id": 10
+        },
+        "pathParams": {
+          "bookname": "ABC",
+          "ISBN": "1234",
+          "authorName": "PQR"
+        },
+        "headers": {
+          "vintage": true,
+          "Content-Type": "application/json",
+          "Accept": "application/json"
+        },
+        "body": {
+          "Book": [
+            {
+              "id": 1,
+              "isbn": "1451648537",
+              "name": "Steve Jobs",
+              "description": "Biography of Apple Co-Founder Steve Jobs",
+              "authorName": "Walter Isaacson",
+              "releaseDate": "2012-10-24",
+              "vintage": false,
+              "signed": false,
+              "price": 21
+            }
+          ]
+        }
+      }
     }
   },
   "type": "flogo:unittest",

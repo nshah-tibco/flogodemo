@@ -1,0 +1,159 @@
+{
+    "report": {
+        "suites": [
+            {
+                "suiteName": "Selected Test Cases",
+                "testCases": [
+                    {
+                        "testName": "test",
+                        "flowName": "post_Invokebookdetails",
+                        "activities": [
+                            {
+                                "name": "LogMessage",
+                                "input": {
+                                    "Log Level": "INFO",
+                                    "flowInfo": false,
+                                    "message": "Invoke Flogo Rest service"
+                                }
+                            },
+                            {
+                                "name": "InvokeRESTService",
+                                "input": {
+                                    "Method": "POST",
+                                    "Server Certificate": "",
+                                    "Timeout": 0,
+                                    "Uri": "https://integration.cloud.tibcoapps.com/24q3tbbbz546yvo2iua6pt7hw4zq5rju",
+                                    "Use certificate for verification": false,
+                                    "authorization": false,
+                                    "body": {
+                                        "Book": null
+                                    },
+                                    "disableKeepAlives": false,
+                                    "enableASR": false,
+                                    "headers": {
+                                        "vintage": null
+                                    },
+                                    "host": "",
+                                    "mutualAuth": false,
+                                    "pathParams": {
+                                        "ISBN": null,
+                                        "authorName": null,
+                                        "bookname": null
+                                    },
+                                    "proxy": "",
+                                    "queryParams": {
+                                        "available": null,
+                                        "id": null,
+                                        "price": null
+                                    },
+                                    "requestType": "application/json",
+                                    "resourcePath": "/bookdetails/{bookname}/{ISBN}/{authorName}",
+                                    "serviceName": "",
+                                    "swagger": {
+                                        "content": "data:application/json;base64,ewoJImRlZmluaXRpb25zIjogewoJCSJzY2hlbWExIjogewoJCQkicHJvcGVydGllcyI6IHsKCQkJCSJCb29rIjogewoJCQkJCSJpdGVtcyI6IHsKCQkJCQkJInByb3BlcnRpZXMiOiB7CgkJCQkJCQkiYXV0aG9yTmFtZSI6IHsKCQkJCQkJCQkidHlwZSI6ICJzdHJpbmciCgkJCQkJCQl9LAoJCQkJCQkJImRlc2NyaXB0aW9uIjogewoJCQkJCQkJCSJ0eXBlIjogInN0cmluZyIKCQkJCQkJCX0sCgkJCQkJCQkiaWQiOiB7CgkJCQkJCQkJInR5cGUiOiAibnVtYmVyIgoJCQkJCQkJfSwKCQkJCQkJCSJpc2JuIjogewoJCQkJCQkJCSJ0eXBlIjogInN0cmluZyIKCQkJCQkJCX0sCgkJCQkJCQkibmFtZSI6IHsKCQkJCQkJCQkidHlwZSI6ICJzdHJpbmciCgkJCQkJCQl9LAoJCQkJCQkJInByaWNlIjogewoJCQkJCQkJCSJ0eXBlIjogIm51bWJlciIKCQkJCQkJCX0sCgkJCQkJCQkicmVsZWFzZURhdGUiOiB7CgkJCQkJCQkJInR5cGUiOiAic3RyaW5nIgoJCQkJCQkJfSwKCQkJCQkJCSJzaWduZWQiOiB7CgkJCQkJCQkJInR5cGUiOiAiYm9vbGVhbiIKCQkJCQkJCX0sCgkJCQkJCQkidmludGFnZSI6IHsKCQkJCQkJCQkidHlwZSI6ICJib29sZWFuIgoJCQkJCQkJfQoJCQkJCQl9LAoJCQkJCQkidHlwZSI6ICJvYmplY3QiCgkJCQkJfSwKCQkJCQkidHlwZSI6ICJhcnJheSIKCQkJCX0KCQkJfSwKCQkJInR5cGUiOiAib2JqZWN0IgoJCX0sCgkJInNjaGVtYTIiOiB7CgkJCSJwcm9wZXJ0aWVzIjogewoJCQkJIkJvb2siOiB7CgkJCQkJIml0ZW1zIjogewoJCQkJCQkicHJvcGVydGllcyI6IHsKCQkJCQkJCSJhdXRob3JOYW1lIjogewoJCQkJCQkJCSJ0eXBlIjogInN0cmluZyIKCQkJCQkJCX0sCgkJCQkJCQkiaWQiOiB7CgkJCQkJCQkJInR5cGUiOiAibnVtYmVyIgoJCQkJCQkJfSwKCQkJCQkJCSJpc2JuIjogewoJCQkJCQkJCSJ0eXBlIjogInN0cmluZyIKCQkJCQkJCX0sCgkJCQkJCQkibmFtZSI6IHsKCQkJCQkJCQkidHlwZSI6ICJzdHJpbmciCgkJCQkJCQl9LAoJCQkJCQkJInByaWNlIjogewoJCQkJCQkJCSJ0eXBlIjogIm51bWJlciIKCQkJCQkJCX0sCgkJCQkJCQkicmVsZWFzZURhdGUiOiB7CgkJCQkJCQkJInR5cGUiOiAic3RyaW5nIgoJCQkJCQkJfQoJCQkJCQl9LAoJCQkJCQkidHlwZSI6ICJvYmplY3QiCgkJCQkJfSwKCQkJCQkidHlwZSI6ICJhcnJheSIKCQkJCX0KCQkJfSwKCQkJInR5cGUiOiAib2JqZWN0IgoJCX0sCgkJInNjaGVtYTMiOiB7CgkJCSJwcm9wZXJ0aWVzIjogewoJCQkJImF1dGhvck5hbWUiOiB7CgkJCQkJInR5cGUiOiAic3RyaW5nIgoJCQkJfSwKCQkJCSJpZCI6IHsKCQkJCQkidHlwZSI6ICJudW1iZXIiCgkJCQl9LAoJCQkJImlzYm4iOiB7CgkJCQkJInR5cGUiOiAic3RyaW5nIgoJCQkJfSwKCQkJCSJuYW1lIjogewoJCQkJCSJ0eXBlIjogInN0cmluZyIKCQkJCX0KCQkJfSwKCQkJInR5cGUiOiAib2JqZWN0IgoJCX0sCgkJInNjaGVtYTQiOiB7CgkJCSJwcm9wZXJ0aWVzIjogewoJCQkJImVycm9yQ29kZSI6IHsKCQkJCQkidHlwZSI6ICJudW1iZXIiCgkJCQl9LAoJCQkJImVycm9yTWVzc2FnZSI6IHsKCQkJCQkidHlwZSI6ICJzdHJpbmciCgkJCQl9CgkJCX0sCgkJCSJ0eXBlIjogIm9iamVjdCIKCQl9Cgl9LAoJImluZm8iOiB7CgkJImRlc2NyaXB0aW9uIjogIlNpbXBsZSBSRVNUIFRyaWdnZXIiLAoJCSJ0aXRsZSI6ICJmbG9nby5yZXN0LnNlcnZpY2UiLAoJCSJ2ZXJzaW9uIjogIjEuMC4wIgoJfSwKCSJwYXRocyI6IHsKCQkiL2Jvb2tkZXRhaWxzL3tib29rbmFtZX0ve0lTQk59L3thdXRob3JOYW1lfSI6IHsKCQkJInBvc3QiOiB7CgkJCQkib3BlcmF0aW9uSWQiOiAicG9zdF9ib29rZGV0YWlsc19ib29rbmFtZV9JU0JOX2F1dGhvck5hbWUiLAoJCQkJInBhcmFtZXRlcnMiOiBbCgkJCQkJewoJCQkJCQkiZGVzY3JpcHRpb24iOiAiUmVxdWVzdCBwYXJhbWV0ZXIiLAoJCQkJCQkiaW4iOiAicXVlcnkiLAoJCQkJCQkibmFtZSI6ICJhdmFpbGFibGUiLAoJCQkJCQkicmVxdWlyZWQiOiB0cnVlLAoJCQkJCQkidHlwZSI6ICJib29sZWFuIgoJCQkJCX0sCgkJCQkJewoJCQkJCQkiZGVzY3JpcHRpb24iOiAiUmVxdWVzdCBwYXJhbWV0ZXIiLAoJCQkJCQkiaW4iOiAicXVlcnkiLAoJCQkJCQkibmFtZSI6ICJwcmljZSIsCgkJCQkJCSJyZXF1aXJlZCI6IHRydWUsCgkJCQkJCSJ0eXBlIjogIm51bWJlciIKCQkJCQl9LAoJCQkJCXsKCQkJCQkJImRlc2NyaXB0aW9uIjogIlJlcXVlc3QgcGFyYW1ldGVyIiwKCQkJCQkJImluIjogInF1ZXJ5IiwKCQkJCQkJIm5hbWUiOiAiaWQiLAoJCQkJCQkicmVxdWlyZWQiOiB0cnVlLAoJCQkJCQkidHlwZSI6ICJudW1iZXIiCgkJCQkJfSwKCQkJCQl7CgkJCQkJCSJkZXNjcmlwdGlvbiI6ICJSZXF1ZXN0IHBhcmFtZXRlciIsCgkJCQkJCSJpbiI6ICJwYXRoIiwKCQkJCQkJIm5hbWUiOiAiYm9va25hbWUiLAoJCQkJCQkicmVxdWlyZWQiOiB0cnVlLAoJCQkJCQkidHlwZSI6ICJzdHJpbmciCgkJCQkJfSwKCQkJCQl7CgkJCQkJCSJkZXNjcmlwdGlvbiI6ICJSZXF1ZXN0IHBhcmFtZXRlciIsCgkJCQkJCSJpbiI6ICJwYXRoIiwKCQkJCQkJIm5hbWUiOiAiSVNCTiIsCgkJCQkJCSJyZXF1aXJlZCI6IHRydWUsCgkJCQkJCSJ0eXBlIjogInN0cmluZyIKCQkJCQl9LAoJCQkJCXsKCQkJCQkJImRlc2NyaXB0aW9uIjogIlJlcXVlc3QgcGFyYW1ldGVyIiwKCQkJCQkJImluIjogInBhdGgiLAoJCQkJCQkibmFtZSI6ICJhdXRob3JOYW1lIiwKCQkJCQkJInJlcXVpcmVkIjogdHJ1ZSwKCQkJCQkJInR5cGUiOiAic3RyaW5nIgoJCQkJCX0sCgkJCQkJewoJCQkJCQkiZGVzY3JpcHRpb24iOiAiUmVxdWVzdCBwYXJhbWV0ZXIiLAoJCQkJCQkiaW4iOiAiaGVhZGVyIiwKCQkJCQkJIm5hbWUiOiAidmludGFnZSIsCgkJCQkJCSJyZXF1aXJlZCI6IGZhbHNlLAoJCQkJCQkidHlwZSI6ICJib29sZWFuIgoJCQkJCX0sCgkJCQkJewoJCQkJCQkiZGVzY3JpcHRpb24iOiAicmVxdWVzdCBib2R5IHBhcmFtZXRlciIsCgkJCQkJCSJpbiI6ICJib2R5IiwKCQkJCQkJIm5hbWUiOiAiYm9keSIsCgkJCQkJCSJyZXF1aXJlZCI6IHRydWUsCgkJCQkJCSJzY2hlbWEiOiB7CgkJCQkJCQkiJHJlZiI6ICIjL2RlZmluaXRpb25zL3NjaGVtYTEiCgkJCQkJCX0KCQkJCQl9CgkJCQldLAoJCQkJInJlc3BvbnNlcyI6IHsKCQkJCQkiMjAwIjogewoJCQkJCQkiZGVzY3JpcHRpb24iOiAiIiwKCQkJCQkJImhlYWRlcnMiOiB7CgkJCQkJCQkiQXZhaWxhYmxlIjogewoJCQkJCQkJCSJ0eXBlIjogImJvb2xlYW4iCgkJCQkJCQl9CgkJCQkJCX0sCgkJCQkJCSJzY2hlbWEiOiB7CgkJCQkJCQkiJHJlZiI6ICIjL2RlZmluaXRpb25zL3NjaGVtYTIiCgkJCQkJCX0KCQkJCQl9LAoJCQkJCSIyMjIiOiB7CgkJCQkJCSJkZXNjcmlwdGlvbiI6ICIiLAoJCQkJCQkiaGVhZGVycyI6IHsKCQkJCQkJCSJBdmFpbGFibGUiOiB7CgkJCQkJCQkJInR5cGUiOiAiYm9vbGVhbiIKCQkJCQkJCX0KCQkJCQkJfSwKCQkJCQkJInNjaGVtYSI6IHsKCQkJCQkJCSIkcmVmIjogIiMvZGVmaW5pdGlvbnMvc2NoZW1hMyIKCQkJCQkJfQoJCQkJCX0sCgkJCQkJIjQwMCI6IHsKCQkJCQkJImRlc2NyaXB0aW9uIjogIiIsCgkJCQkJCSJzY2hlbWEiOiB7CgkJCQkJCQkiJHJlZiI6ICIjL2RlZmluaXRpb25zL3NjaGVtYTQiCgkJCQkJCX0KCQkJCQl9LAoJCQkJCSI1MDAiOiB7CgkJCQkJCSJkZXNjcmlwdGlvbiI6ICIiLAoJCQkJCQkic2NoZW1hIjogewoJCQkJCQkJInR5cGUiOiAic3RyaW5nIgoJCQkJCQl9CgkJCQkJfQoJCQkJfSwKCQkJCSJzdW1tYXJ5IjogInBvc3RCb29rRGV0YWlscyIKCQkJfQoJCX0KCX0sCgkic3dhZ2dlciI6ICIyLjAiLAoJImhvc3QiOiAibG9jYWxkZXYtaW50ZWdyYXRpb24uY2xvdWQudGliY29hcHBzLmNvbTo5NyIsCgkic2NoZW1lcyI6IFsKCQkiaHR0cHMiCgldLAoJImJhc2VQYXRoIjogIi9nYXpybnJidHFqczQ0ajNldHFyY2hiN25iaGhlZzduZyIKfQ==",
+                                        "filename": "flogo.rest.service_spec.json"
+                                    }
+                                },
+                                "output": {
+                                    "configureResponseCodes": false,
+                                    "headers": {
+                                        "Content-Length": "23",
+                                        "Content-Type": "text/plain; charset=utf-8"
+                                    },
+                                    "responseBody": null,
+                                    "responseCodes": {
+                                        "200": "",
+                                        "222": "",
+                                        "400": "",
+                                        "500": ""
+                                    },
+                                    "responseCodesSchema": null,
+                                    "responseTimeInMilliSec": 1539,
+                                    "responseType": "",
+                                    "statusCode": 404
+                                }
+                            },
+                            {
+                                "name": "ConfigureHTTPResponse2",
+                                "input": {
+                                    "input": {
+                                        "body": ""
+                                    },
+                                    "responsecode": "500",
+                                    "trigger": "ReceiveHTTPMessage"
+                                },
+                                "output": {
+                                    "code": 500,
+                                    "response": {
+                                        "body": ""
+                                    }
+                                }
+                            },
+                            {
+                                "name": "LogServerErrorMessage",
+                                "input": {
+                                    "Log Level": "INFO",
+                                    "flowInfo": false,
+                                    "message": "{\"body\":\"\"}"
+                                }
+                            },
+                            {
+                                "name": "Return500",
+                                "output": {
+                                    "code": 500,
+                                    "responseBody": {
+                                        "body": ""
+                                    }
+                                }
+                            }
+                        ],
+                        "links": [
+                            {
+                                "linkName": "LogMessage to InvokeRESTService",
+                                "from": "LogMessage",
+                                "to": "InvokeRESTService"
+                            },
+                            {
+                                "linkName": "InvokeRESTServicetoConfigureHTTPResponse2",
+                                "from": "InvokeRESTService",
+                                "to": "ConfigureHTTPResponse2"
+                            },
+                            {
+                                "linkName": "ConfigureHTTPResponse2 to LogServerErrorMessage",
+                                "from": "ConfigureHTTPResponse2",
+                                "to": "LogServerErrorMessage"
+                            },
+                            {
+                                "linkName": "LogServerErrorMessage to Return500",
+                                "from": "LogServerErrorMessage",
+                                "to": "Return500"
+                            }
+                        ],
+                        "errorHandler": {
+                            "activities": []
+                        },
+                        "testResult": {
+                            "totalAssertions": 0,
+                            "executedAssertions": 0,
+                            "failedAssertions": 0,
+                            "skippedAssertions": 0,
+                            "successAssertions": 0,
+                            "flowExecuted": true
+                        },
+                        "testStatus": ""
+                    }
+                ],
+                "suiteResult": {
+                    "totalTests": 1,
+                    "failedTests": 0,
+                    "errorFailed": 0,
+                    "assertionFailed": 0
+                }
+            }
+        ]
+    },
+    "result": {
+        "totalSuites": 1,
+        "failedSuites": 0
+    }
+}
